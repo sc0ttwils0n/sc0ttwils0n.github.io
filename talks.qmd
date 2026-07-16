@@ -1,0 +1,26 @@
+---
+title: "Talks & media"
+---
+
+## Talks
+
+<!-- Add invited talks / conference presentations here, e.g.:
+::: {.lead-block}
+**Talk title.** Event / venue, location. Month Year.
+:::
+-->
+
+::: {.lead-block}
+*Add your invited talks and conference presentations here.*
+:::
+
+## Media
+
+::: {.lead-block}
+**Super Brain** (最强大脑) — UK representative and international finalist, Seasons 11
+(2024) and 12 (2025). A Chinese televised contest of "mental athletics".
+:::
+
+::: {.lead-block}
+**University Challenge** (BBC) — contestant, 2023.
+:::

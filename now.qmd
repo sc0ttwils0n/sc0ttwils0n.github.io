@@ -1,0 +1,23 @@
+---
+title: "Now"
+---
+
+*What I'm working on at the moment. Last updated 16 July 2026.*
+
+::: {.lead-block}
+Writing up three first-author manuscripts from my PhD, ahead of first submission and
+preprint:
+
+- *The structure of developmental noise in a complete connectome*
+- *Spatial transcriptomics of the larval mushroom body: intrinsic pre-tuning of memory-circuit neurons*
+- *Towards the panconnectome*
+:::
+
+::: {.lead-block}
+Finishing a transitional postdoc in the Cardona group at the MRC Laboratory of
+Molecular Biology, and moving to London in September 2026.
+:::
+
+<!-- Add or edit freely — a "now" page is meant to be a living snapshot. -->
+
+[This is a [now page](https://nownownow.com/about); a snapshot of my current focus rather than a record.]{.muted}
