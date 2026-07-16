@@ -36,4 +36,4 @@ format:
     link-external-newwindow: true
     email-obfuscation: references
     grid:
-      body-width: 720px
+      body-width: 800px
