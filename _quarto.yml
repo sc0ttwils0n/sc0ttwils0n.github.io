@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Scott Wilson"
+  site-url: "https://sc0ttwils0n.github.io"
+  navbar:
+    title: false
+    background: transparent
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "CV"
+        href: cv.qmd
+      - text: "Writing"
+        href: writing.qmd
+  page-footer:
+    left: "Scott Wilson"
+    right: "Built with [Quarto](https://quarto.org). Source on [GitHub](https://github.com/sc0ttwils0n/sc0ttwils0n.github.io)."
+
+format:
+  html:
+    theme: theme.scss
+    toc: false
+    page-layout: article
+    anchor-sections: false
+    link-external-newwindow: true
+    email-obfuscation: references
+    grid:
+      body-width: 720px

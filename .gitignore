@@ -1,0 +1,9 @@
+/_site/
+/.quarto/
+.DS_Store
+
+# never publish secrets or heavy source material
+seymour.json
+*.pptx
+
+**/*.quarto_ipynb

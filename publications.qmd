@@ -1,0 +1,31 @@
+---
+title: "Publications"
+---
+
+::: {.lead-block}
+**Wilson SR**, et al. The structure of developmental noise in a complete connectome.
+[in press · first author]{.status}
+:::
+
+::: {.lead-block}
+**Wilson SR**, et al. Spatial transcriptomics of the larval mushroom body reveals
+intrinsic pre-tuning of memory-circuit neurons. [in press · first author]{.status}
+:::
+
+::: {.lead-block}
+**Wilson SR**, et al. Towards the panconnectome. [in press · first author]{.status}
+:::
+
+::: {.lead-block}
+Mace C, O'Sullivan F, **Wilson SR**. Reductionism in engram neuroscience.
+*European Journal of Neuroscience* (2026).
+[doi:10.1111/ejn.70497](https://onlinelibrary.wiley.com/doi/10.1111/ejn.70497)
+[co-first]{.muted}
+:::
+
+::: {.lead-block}
+Ferreira Castro A, **Wilson S**, Cardona A. Evaluating traces of Hebbian plasticity
+in the *Drosophila* antennal lobe. *PNAS* **120** (2023).
+[doi:10.1073/pnas.2315790120](https://www.pnas.org/doi/10.1073/pnas.2315790120)
+[co-author]{.muted}
+:::

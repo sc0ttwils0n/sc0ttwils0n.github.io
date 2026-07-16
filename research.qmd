@@ -1,0 +1,26 @@
+---
+title: "Research"
+---
+
+::: {.lead-block}
+### Variability and error in a wiring diagram
+Genetically identical animals, raised alike, still don't wire identically. I measure
+how much brains differ from one another, and treat the mismatches — neurons that
+wander, double, or go missing — as evidence about how development can fail and how
+robust the finished circuit really is.
+:::
+
+::: {.lead-block}
+### Where a memory physically sits
+With single-cell transcriptomics I track how training reshapes gene expression in
+identified neurons. Massed and spaced learning, which produce short- and long-lasting
+memory, share no differentially expressed genes at all in mushroom-body output
+neurons — a hint that the molecular account of memory is not simply a slower version
+of the synaptic one.
+:::
+
+::: {.lead-block}
+### From genome to circuit
+I make targeted genetic changes in single, identified neurons and measure how the
+wiring responds, connecting what the genome specifies to what the connectome becomes.
+:::

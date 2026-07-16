@@ -1,0 +1,25 @@
+---
+title: "CV"
+---
+
+**Position** · Postdoctoral researcher, MRC Laboratory of Molecular Biology,
+University of Cambridge (Cardona group).
+
+[Download full CV (PDF)](assets/scott-wilson-cv.pdf)
+
+## Education
+::: {.lead-block}
+### PhD, Neuroscience — University of Cambridge (MRC LMB)
+2021–2026. Thesis: *On the Individuality of a Brain: Connectomic and Transcriptomic
+Plasticity in the Drosophila Larva*.
+:::
+::: {.lead-block}
+### MSci Biological Sciences (Genetics) — UCL
+First Class Honours. Research year at the Francis Crick Institute (Luscombe lab).
+:::
+
+## Also
+::: {.lead-block}
+Santa Fe Institute working group — *Assessing Representation in Minds and Artificial
+Systems* (selected 1 of 12; with Melanie Mitchell and David Krakauer).
+:::

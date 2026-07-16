@@ -1,0 +1,90 @@
+/*-- scss:defaults --*/
+// "Plaintext" — a typeset README. Monospace, parchment, one amber accent.
+// System fonts only: no web font, no CDN.
+
+$font-family-monospace: "SF Mono", "SFMono-Regular", ui-monospace, "IBM Plex Mono", Menlo, monospace;
+$font-family-base:      #{$font-family-monospace};
+$headings-font-family:  #{$font-family-monospace};
+
+$body-bg:         #f3efe6;   // parchment
+$body-color:      #2b2620;   // ink
+$link-color:      #b06a1b;   // amber
+$link-hover-color: #8a5214;
+
+$font-size-root:   15px;
+$line-height-base: 1.7;
+$headings-font-weight: 700;
+
+/*-- scss:rules --*/
+:root {
+  --sw-accent: #b06a1b;
+  --sw-muted:  #6f6656;
+  --sw-rule:   #ddd2bd;
+}
+
+body { -webkit-font-smoothing: antialiased; }
+a { text-underline-offset: 3px; }
+
+// ---- navbar: minimal, transparent, arrow-prefixed links ----
+.navbar {
+  background: transparent !important;
+  border: 0; box-shadow: none;
+  padding: 1.6rem 0 0;
+}
+.navbar-container { padding-inline: 0; }
+.navbar .navbar-nav { gap: .3rem 1.4rem; }
+.navbar .nav-link {
+  color: var(--sw-muted) !important;
+  padding: 0 !important; font-size: .85rem;
+}
+.navbar .nav-link::before { content: "\2192\00a0"; color: var(--sw-accent); }
+.navbar .nav-link:hover,
+.navbar .nav-link.active { color: var(--sw-accent) !important; }
+.navbar-toggler { border: 0; }
+
+// ---- page title rendered as "# Title" ----
+#title-block-header .quarto-title h1.title {
+  font-weight: 700; letter-spacing: -.02em; font-size: 2rem;
+  margin-bottom: .2rem;
+}
+#title-block-header .quarto-title h1.title::before { content: "# "; color: var(--sw-accent); }
+#title-block-header .subtitle {
+  color: var(--sw-muted); font-size: 1rem; font-weight: 400; margin-bottom: 1.8rem;
+}
+#title-block-header { margin-bottom: 1.5rem; }
+
+// ---- section headers as "## " ----
+main h2 {
+  font-size: 1.05rem; font-weight: 700; color: var(--sw-accent);
+  margin-top: 2.8rem; margin-bottom: .8rem; border: 0; padding: 0;
+}
+main h2::before { content: "## "; opacity: .45; }
+main h3 { font-size: 1rem; font-weight: 700; margin: 0 0 .15rem; }
+main p { margin-bottom: 1rem; }
+
+// ---- accented left-rule block for research items & publications ----
+.lead-block {
+  padding-left: 1rem;
+  border-left: 2px solid var(--sw-rule);
+  margin-bottom: 1.6rem;
+}
+
+.muted  { color: var(--sw-muted); }
+.status {
+  color: var(--sw-accent); font-size: .78rem;
+  letter-spacing: .06em; text-transform: uppercase;
+}
+
+// ---- footer ----
+.nav-footer {
+  border-top: 1px solid var(--sw-rule);
+  color: var(--sw-muted); font-size: .78rem;
+  margin-top: 3rem;
+}
+.nav-footer a { color: var(--sw-muted); }
+
+// ---- listing (Writing) ----
+.quarto-listing { margin-top: 1rem; }
+div.quarto-post { border-bottom: 1px solid var(--sw-rule); padding: .9rem 0; }
+div.quarto-post .listing-title { font-weight: 700; }
+div.quarto-post .listing-date { color: var(--sw-muted); }

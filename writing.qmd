@@ -1,0 +1,11 @@
+---
+title: "Writing"
+listing:
+  contents: posts
+  type: default
+  sort: "date desc"
+  fields: [date, title, description]
+  date-format: "D MMM YYYY"
+---
+
+Occasional notes on connectomes, memory, and where biology meets theory.
