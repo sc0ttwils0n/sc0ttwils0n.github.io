@@ -69,6 +69,18 @@ main p { margin-bottom: 1rem; }
   margin-bottom: 1.6rem;
 }
 
+// ---- headshot on the home page ----
+.headshot {
+  float: right;
+  width: 190px;
+  max-width: 40%;
+  margin: .2rem 0 1rem 1.5rem;
+  border: 1px solid var(--sw-rule);
+}
+@media (max-width: 34rem) {
+  .headshot { float: none; display: block; width: 175px; margin: 0 0 1.2rem 0; }
+}
+
 .muted  { color: var(--sw-muted); }
 .status {
   color: var(--sw-accent); font-size: .78rem;

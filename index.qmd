@@ -3,6 +3,8 @@ title: "Scott Wilson"
 subtitle: "Neuroscientist · MRC Laboratory of Molecular Biology, Cambridge"
 ---
 
+![](assets/scott.jpg){.headshot fig-alt="Scott Wilson"}
+
 I am a computational biologist, who has worked across various high dimensional
 datasets to extract signal from noise. I recently completed my PhD in neuroscience
 at the University of Cambridge. Eager to pursue a career which leads to macro-level,
@@ -14,7 +16,3 @@ in minds and artificial systems.
 
 [Email](mailto:sc0ttwils0n@pm.me) · [GitHub](https://github.com/sc0ttwils0n)
 <!-- Add when you have them: · [Google Scholar](URL) · [ORCID](URL) · [Bluesky](URL) -->
-
-<!-- To add a photo: drop a file at assets/scott.jpg and uncomment the next line.
-![](assets/scott.jpg){width="200" fig-alt="Scott Wilson"}
--->

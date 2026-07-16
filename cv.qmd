@@ -5,8 +5,6 @@ title: "CV"
 **Position** · Postdoctoral researcher, MRC Laboratory of Molecular Biology,
 University of Cambridge (Cardona group).
 
-[Download full CV (PDF)](assets/scott-wilson-cv.pdf)
-
 ## Education
 ::: {.lead-block}
 ### PhD, Neuroscience — University of Cambridge (MRC LMB)
