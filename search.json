@@ -21,11 +21,18 @@
     "text": "Also\n\nSanta Fe Institute working group — Assessing Representation in Minds and Artificial Systems (selected 1 of 12; with Melanie Mitchell and David Krakauer)."
   },
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
+    "objectID": "now.html",
+    "href": "now.html",
+    "title": "Now",
     "section": "",
-    "text": "Wilson SR, et al. The structure of developmental noise in a complete connectome. in press · first author\n\n\nWilson SR, et al. Spatial transcriptomics of the larval mushroom body reveals intrinsic pre-tuning of memory-circuit neurons. in press · first author\n\n\nWilson SR, et al. Towards the panconnectome. in press · first author\n\n\nMace C, O’Sullivan F, Wilson SR. Reductionism in engram neuroscience. European Journal of Neuroscience (2026). doi:10.1111/ejn.70497 co-first\n\n\nFerreira Castro A, Wilson S, Cardona A. Evaluating traces of Hebbian plasticity in the Drosophila antennal lobe. PNAS 120 (2023). doi:10.1073/pnas.2315790120 co-author"
+    "text": "What I’m working on at the moment. Last updated 16 July 2026.\n\nWriting up three first-author manuscripts from my PhD, ahead of first submission and preprint:\n\nThe structure of developmental noise in a complete connectome\nSpatial transcriptomics of the larval mushroom body: intrinsic pre-tuning of memory-circuit neurons\nTowards the panconnectome\n\n\n\nFinishing a transitional postdoc in the Cardona group at the MRC Laboratory of Molecular Biology, and moving to London in September 2026.\n\n\nThis is a now page; a snapshot of my current focus rather than a record."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Scott Wilson",
+    "section": "",
+    "text": "I am a computational biologist, who has worked across various high dimensional datasets to extract signal from noise. I recently completed my PhD in neuroscience at the University of Cambridge. Eager to pursue a career which leads to macro-level, positive outcomes across a changing world.\nBefore Cambridge I read Genetics at UCL and spent a research year at the Francis Crick Institute. I’m part of the Santa Fe Institute working group on representation in minds and artificial systems.\nEmail · GitHub"
   },
   {
     "objectID": "posts/welcome.html",
@@ -42,11 +49,39 @@
     "text": "Variability and error in a wiring diagram\nGenetically identical animals, raised alike, still don’t wire identically. I measure how much brains differ from one another, and treat the mismatches — neurons that wander, double, or go missing — as evidence about how development can fail and how robust the finished circuit really is.\n\n\nWhere a memory physically sits\nWith single-cell transcriptomics I track how training reshapes gene expression in identified neurons. Massed and spaced learning, which produce short- and long-lasting memory, share no differentially expressed genes at all in mushroom-body output neurons — a hint that the molecular account of memory is not simply a slower version of the synaptic one.\n\n\nFrom genome to circuit\nI make targeted genetic changes in single, identified neurons and measure how the wiring responds, connecting what the genome specifies to what the connectome becomes."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Scott Wilson",
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks & media",
     "section": "",
-    "text": "I am a computational biologist, who has worked across various high dimensional datasets to extract signal from noise. I recently completed my PhD in neuroscience at the University of Cambridge. Eager to pursue a career which leads to macro-level, positive outcomes across a changing world.\nBefore Cambridge I read Genetics at UCL and spent a research year at the Francis Crick Institute. I’m part of the Santa Fe Institute working group on representation in minds and artificial systems.\nEmail · GitHub"
+    "text": "Add your invited talks and conference presentations here."
+  },
+  {
+    "objectID": "talks.html#talks",
+    "href": "talks.html#talks",
+    "title": "Talks & media",
+    "section": "",
+    "text": "Add your invited talks and conference presentations here."
+  },
+  {
+    "objectID": "talks.html#media",
+    "href": "talks.html#media",
+    "title": "Talks & media",
+    "section": "Media",
+    "text": "Media\n\nSuper Brain (最强大脑) — UK representative and international finalist, Seasons 11 (2024) and 12 (2025). A Chinese televised contest of “mental athletics”.\n\n\nUniversity Challenge (BBC) — contestant, 2023."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Mace C, O’Sullivan F, Wilson SR. Reductionism in engram neuroscience. European Journal of Neuroscience (2026). doi:10.1111/ejn.70497 co-first"
+  },
+  {
+    "objectID": "publications.html#in-preparation",
+    "href": "publications.html#in-preparation",
+    "title": "Publications",
+    "section": "In preparation",
+    "text": "In preparation\n\nWilson SR, et al. The structure of developmental noise in a complete connectome. first author\n\n\nWilson SR, et al. Spatial transcriptomics of the larval mushroom body reveals intrinsic pre-tuning of memory-circuit neurons. first author\n\n\nWilson SR, et al. Towards the panconnectome. first author"
   },
   {
     "objectID": "writing.html",

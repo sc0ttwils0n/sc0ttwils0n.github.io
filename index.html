@@ -41,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-98315fc966eab6811d97cf3c209dcdf7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9fa984282e123e38a8cd6fd399311bab.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-2cde234986d61dae4f005f98081dfaba.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -98,12 +98,20 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./talks.html"> 
+<span class="menu-text">Talks &amp; media</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./cv.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./writing.html"> 
 <span class="menu-text">Writing</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./now.html"> 
+<span class="menu-text">Now</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -140,10 +148,66 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="netwrap" aria-hidden="true"><canvas id="net"></canvas></div>
+<script>
+(function(){
+  var wrap=document.querySelector('.netwrap'), c=document.getElementById('net');
+  if(!c||!wrap) return;
+  var ctx=c.getContext('2d'), DPR=Math.max(1,window.devicePixelRatio||1);
+  var W=0,H=0,nodes=[],edges=[],pulses=[],raf;
+  var AMBER='#b06a1b', INK='43,38,32';
+  var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function rand(a,b){return a+Math.random()*(b-a);}
+  function spawn(){var e=edges[(Math.random()*edges.length)|0]; return {e:e,t:Math.random(),sp:rand(.0016,.0042)};}
+  function build(){
+    W=wrap.clientWidth; H=wrap.clientHeight;
+    c.width=W*DPR; c.height=H*DPR; c.style.width=W+'px'; c.style.height=H+'px';
+    ctx.setTransform(DPR,0,0,DPR,0,0);
+    var N=Math.max(14,Math.min(36,Math.round(W/32)));
+    nodes=[]; for(var i=0;i<N;i++){nodes.push({x:rand(6,W-6),y:rand(6,H-6),vx:rand(-.12,.12),vy:rand(-.12,.12)});}
+    edges=[]; var seen={};
+    for(var i=0;i<N;i++){var d=[];
+      for(var j=0;j<N;j++){if(i!==j){var dx=nodes[i].x-nodes[j].x,dy=nodes[i].y-nodes[j].y; d.push([dx*dx+dy*dy,j]);}}
+      d.sort(function(a,b){return a[0]-b[0];});
+      for(var k=0;k<2;k++){var j=d[k][1],key=Math.min(i,j)+'-'+Math.max(i,j); if(!seen[key]){seen[key]=1; edges.push([i,j]);}}}
+    pulses=[]; var P=reduce?0:Math.min(9,Math.round(edges.length/4));
+    for(var p=0;p<P;p++){pulses.push(spawn());}
+  }
+  function draw(){
+    ctx.clearRect(0,0,W,H); ctx.lineWidth=1;
+    for(var i=0;i<edges.length;i++){var a=nodes[edges[i][0]],b=nodes[edges[i][1]];
+      ctx.strokeStyle='rgba(176,106,27,0.16)'; ctx.beginPath(); ctx.moveTo(a.x,a.y); ctx.lineTo(b.x,b.y); ctx.stroke();}
+    for(var i=0;i<nodes.length;i++){var n=nodes[i]; ctx.fillStyle='rgba('+INK+',0.5)'; ctx.beginPath(); ctx.arc(n.x,n.y,1.6,0,6.283); ctx.fill();}
+    for(var i=0;i<pulses.length;i++){var pu=pulses[i],a=nodes[pu.e[0]],b=nodes[pu.e[1]];
+      var x=a.x+(b.x-a.x)*pu.t,y=a.y+(b.y-a.y)*pu.t;
+      ctx.save(); ctx.shadowColor=AMBER; ctx.shadowBlur=8; ctx.fillStyle=AMBER;
+      ctx.beginPath(); ctx.arc(x,y,2.4,0,6.283); ctx.fill(); ctx.restore();}
+  }
+  function step(){
+    for(var i=0;i<nodes.length;i++){var n=nodes[i]; n.x+=n.vx; n.y+=n.vy;
+      if(n.x<4||n.x>W-4)n.vx*=-1; if(n.y<4||n.y>H-4)n.vy*=-1;}
+    for(var i=0;i<pulses.length;i++){pulses[i].t+=pulses[i].sp; if(pulses[i].t>=1)pulses[i]=spawn();}
+    draw(); raf=requestAnimationFrame(step);
+  }
+  build(); draw(); if(!reduce) step();
+  var rt; window.addEventListener('resize',function(){clearTimeout(rt);
+    rt=setTimeout(function(){if(raf)cancelAnimationFrame(raf); build(); draw(); if(!reduce) step();},200);});
+})();
+</script>
 <p><img src="assets/scott.jpg" class="headshot img-fluid" alt="Scott Wilson"></p>
 <p>I am a computational biologist, who has worked across various high dimensional datasets to extract signal from noise. I recently completed my PhD in neuroscience at the University of Cambridge. Eager to pursue a career which leads to macro-level, positive outcomes across a changing world.</p>
 <p>Before Cambridge I read Genetics at UCL and spent a research year at the Francis Crick Institute. I’m part of the Santa Fe Institute working group on representation in minds and artificial systems.</p>
 <p><a href="mailto:sc0ttwils0n@pm.me" class="email">Email</a> · <a href="https://github.com/sc0ttwils0n">GitHub</a> <!-- Add when you have them: · [Google Scholar](URL) · [ORCID](URL) · [Bluesky](URL) --></p>
+<!-- ============================================================
+     ACADEMIC FAMILY TREE — space reserved for you.
+     When your academictree.org page is ready, uncomment ONE of these:
+
+     ## Academic family tree
+     [My academic family tree](https://academictree.org/REPLACE-WITH-YOUR-URL)
+
+     …or embed a snapshot image you export from the tree:
+     ![](assets/tree.png){fig-alt="My academic family tree" width="100%"}
+     ============================================================ -->
 
 
 
