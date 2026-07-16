@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Position · Postdoctoral researcher, MRC Laboratory of Molecular Biology, University of Cambridge (Cardona group).\nDownload full CV (PDF)"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "CV",
+    "section": "Education",
+    "text": "Education\n\nPhD, Neuroscience — University of Cambridge (MRC LMB)\n2021–2026. Thesis: On the Individuality of a Brain: Connectomic and Transcriptomic Plasticity in the Drosophila Larva.\n\n\nMSci Biological Sciences (Genetics) — UCL\nFirst Class Honours. Research year at the Francis Crick Institute (Luscombe lab)."
+  },
+  {
+    "objectID": "cv.html#also",
+    "href": "cv.html#also",
+    "title": "CV",
+    "section": "Also",
+    "text": "Also\n\nSanta Fe Institute working group — Assessing Representation in Minds and Artificial Systems (selected 1 of 12; with Melanie Mitchell and David Krakauer)."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Wilson SR, et al. The structure of developmental noise in a complete connectome. in press · first author\n\n\nWilson SR, et al. Spatial transcriptomics of the larval mushroom body reveals intrinsic pre-tuning of memory-circuit neurons. in press · first author\n\n\nWilson SR, et al. Towards the panconnectome. in press · first author\n\n\nMace C, O’Sullivan F, Wilson SR. Reductionism in engram neuroscience. European Journal of Neuroscience (2026). doi:10.1111/ejn.70497 co-first\n\n\nFerreira Castro A, Wilson S, Cardona A. Evaluating traces of Hebbian plasticity in the Drosophila antennal lobe. PNAS 120 (2023). doi:10.1073/pnas.2315790120 co-author"
+  },
+  {
+    "objectID": "posts/welcome.html",
+    "href": "posts/welcome.html",
+    "title": "A first note",
+    "section": "",
+    "text": "This is a starter post so the Writing page isn’t empty. Delete this file (posts/welcome.qmd) or overwrite it with your own first piece.\nTo add a post, drop a new .qmd file in posts/ with a title, date, and short description in the front matter. That’s the whole workflow — write Markdown, it appears in the list."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Variability and error in a wiring diagram\nGenetically identical animals, raised alike, still don’t wire identically. I measure how much brains differ from one another, and treat the mismatches — neurons that wander, double, or go missing — as evidence about how development can fail and how robust the finished circuit really is.\n\n\nWhere a memory physically sits\nWith single-cell transcriptomics I track how training reshapes gene expression in identified neurons. Massed and spaced learning, which produce short- and long-lasting memory, share no differentially expressed genes at all in mushroom-body output neurons — a hint that the molecular account of memory is not simply a slower version of the synaptic one.\n\n\nFrom genome to circuit\nI make targeted genetic changes in single, identified neurons and measure how the wiring responds, connecting what the genome specifies to what the connectome becomes."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Scott Wilson",
+    "section": "",
+    "text": "I am a computational biologist, who has worked across various high dimensional datasets to extract signal from noise. I recently completed my PhD in neuroscience at the University of Cambridge. Eager to pursue a career which leads to macro-level, positive outcomes across a changing world.\nBefore Cambridge I read Genetics at UCL and spent a research year at the Francis Crick Institute. I’m part of the Santa Fe Institute working group on representation in minds and artificial systems.\nEmail · GitHub"
+  },
+  {
+    "objectID": "writing.html",
+    "href": "writing.html",
+    "title": "Writing",
+    "section": "",
+    "text": "Occasional notes on connectomes, memory, and where biology meets theory.\n\n\n\n\n\n\n\n\n\nA first note\n\n\nPlaceholder — replace or delete me. This exists only so the Writing list has something to show.\n\n\n\n\n\n8 Jul 2026\n\n\n\n\n\nNo matching items"
+  }
+]
